@@ -1,0 +1,68 @@
+#menu
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 46px;
+	background: lightgrey;
+	text-align: center;
+	font: 15px arial, sans-serif;
+	
+}
+li {
+  list-style-type: none;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #1F85DE;
+}
+
+#about
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+
+#photos
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+
+#playlist
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+
+#like
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+
+#qrcoder
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+#spa
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}
+#contact
+{
+	text-align: center;
+	font: 15px arial, sans-serif;
+}

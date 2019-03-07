@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<H2 ALIGN = "center">about me</H2>
+<br/>
+<br/>hello, my name is Nofar Turteltaub i'm in the 3rd year out of 4 in Bs.c system information and softwaer engeneering .
+<br/>My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
+<br/>my favorite food is Italian cusine.
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<H2 ALIGN = "center">my photos</H2>
+<br/><img src=pic2.HEIC width=300 height=300 />
+<br/><img src=pic6.jpg width=500 height=300 />
+<br/><img src=pic9.HEIC width=400 height=300 />
+<br/><img src=pic10.HEIC width=300 height=300 />
+<br/><img src=pic13.jpg width=300 height=300 />
+<br/><img src=pic14.jpg width=400 height=300 />
+<br/><img src=pic15.jpg width=300 height=300 />
+<br/><img src=pic16.jpg width=300 height=300 />
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<H2 ALIGN = "center">my playlist</H2>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mk48xRzuNvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<H2 ALIGN = "center">Like my page</H2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<H2 ALIGN = "center">scan my code</H2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<H2 ALIGN = "center">Q&A </H2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<H2 ALIGN = "center">contact me</H2>
+<br/>
+If you wish to contact me please send a massage and you will get an answer as soon as posssible.
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
