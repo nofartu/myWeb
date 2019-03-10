@@ -60,8 +60,8 @@ li a:hover {
 	text-align: center;
 	font: 18px Calibri, sans-serif;
 
-}
-.qrcoder img :hover
+} 
+.img :hover
 {
 	transform: scale(1.5);
 }
