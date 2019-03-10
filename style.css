@@ -163,4 +163,5 @@ li a:hover {
   .active,
   .demo:hover {
 	opacity: 1;
+	transform: scale(2);
   }
