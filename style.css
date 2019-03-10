@@ -38,36 +38,40 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: bisque;
+	background-color: rgb(196, 255, 226);
 }
 
 #playlist
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: burlywood;
+	background-color: rgb(218, 186, 145);
 }
 
 #like
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: rgb(247, 213, 162);
 }
 
 #qrcoder
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+
 }
 #spa
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: rgb(235, 226, 148); 
 }
 #contact
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: lightpink;
 }
 * {
 	box-sizing: border-box;
