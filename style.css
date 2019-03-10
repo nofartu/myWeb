@@ -52,7 +52,7 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: #FBA69F;
+	background-color: rgb(220, 180, 221);
 }
 
 #qrcoder
@@ -65,7 +65,7 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: #a07f68;
+	background-color: #caac96;
 }
 #contact
 {
