@@ -61,6 +61,10 @@ li a:hover {
 	font: 18px Calibri, sans-serif;
 
 }
+qrcoder img :hover
+{
+	transform: scale(1.5);
+}
 #spa
 {
 	text-align: center;
