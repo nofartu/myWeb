@@ -31,28 +31,28 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px  Candara, sans-serif;
-	background-color: aqua;
+	background-color:#FDCACD;
 }
 
 #photos
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: rgb(196, 255, 226);
+	background-color: #ffebce;
 }
 
 #playlist
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: rgb(218, 186, 145);
+	background-color: #d2c28e;
 }
 
 #like
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: rgb(247, 213, 162);
+	background-color: #FBA69F;
 }
 
 #qrcoder
@@ -65,13 +65,13 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: #f6f6f6;
+	background-color: #a07f68;
 }
 #contact
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
-	background-color: lightpink;
+	background-color: rgb(177, 128, 135);
 }
 * {
 	box-sizing: border-box;
