@@ -39,6 +39,8 @@ li a:hover {
 	text-align: center;
 	font: 18px Calibri, sans-serif;
 	background-color: #ffebce;
+	margin-top: -20px;
+padding-top: 20px;
 }
 
 #playlist
