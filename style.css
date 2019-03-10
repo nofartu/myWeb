@@ -31,18 +31,21 @@ li a:hover {
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: aqua;
 }
 
 #photos
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: bisque;
 }
 
 #playlist
 {
 	text-align: center;
 	font: 15px arial, sans-serif;
+	background-color: burlywood;
 }
 
 #like
