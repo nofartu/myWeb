@@ -89,7 +89,7 @@ li a:hover {
   .prev,
   .next {
 	cursor: pointer;
-	position: absolute;
+	position: center;
 	top: 40%;
 	width: auto;
 	padding: 16px;
