@@ -137,10 +137,10 @@ li a:hover {
 	clear: both;
   }
   
-  /* Six columns side by side */
+  /* 8 columns side by side */
   .column {
 	float: left;
-	width: 16.66%;
+	width: 12.5%;
   }
   
   /* Add a transparency effect for thumnbail images */
