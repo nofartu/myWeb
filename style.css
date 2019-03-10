@@ -6,7 +6,7 @@
 	height: 46px;
 	background: lightgrey;
 	text-align: center;
-	font: 15px Calibri, sans-serif;
+	font: 15px  Candara, sans-serif;
 	
 }
 li {
@@ -30,7 +30,7 @@ li a:hover {
 #about
 {
 	text-align: center;
-	font: 15px Calibri, sans-serif;
+	font: 15px  Candara, sans-serif;
 	background-color: aqua;
 }
 
