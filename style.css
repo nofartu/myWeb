@@ -6,7 +6,7 @@
 	height: 46px;
 	background: lightgrey;
 	text-align: center;
-	font: 15px  Calibri, sans-serif;
+	font: 18px  Calibri, sans-serif;
 	
 }
 li {
@@ -30,47 +30,47 @@ li a:hover {
 #about
 {
 	text-align: center;
-	font: 15px  Calibri Light, sans-serif;
+	font: 18px  Calibri Light, sans-serif;
 	background-color:#FDCACD;
 }
 
 #photos
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 	background-color: #ffebce;
 }
 
 #playlist
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 	background-color: #d2c28e;
 }
 
 #like
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 	background-color: rgb(220, 180, 221);
 }
 
 #qrcoder
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 
 }
 #spa
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 	background-color: #caac96;
 }
 #contact
 {
 	text-align: center;
-	font: 15px arial, sans-serif;
+	font: 18px Calibri, sans-serif;
 	background-color: rgb(177, 128, 135);
 }
 * {
