@@ -65,10 +65,7 @@ li a:hover {
 	font: 18px Calibri Light, sans-serif;
 
 } 
-.img :hover
-{
-	transform: scale(2);
-}
+
 #spa
 {
 	text-align: center;
@@ -163,9 +160,11 @@ li a:hover {
   .demo {
 	opacity: 0.6;
   }
-  
+  .demo:hover {
+	  transform: scale(2);
+}
   .active,
   .demo:hover {
 	opacity: 1;
-	transform: scale(2);
   }
+
