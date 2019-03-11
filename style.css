@@ -37,7 +37,7 @@ li a:hover {
 #photos
 {
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 	background-color: #ffebce;
 	margin-top: -20px;
 	padding-top: 20px;
@@ -46,7 +46,7 @@ li a:hover {
 #playlist
 {
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 	background-color: #d2c28e;
 }
 
@@ -55,14 +55,14 @@ li a:hover {
 	margin-top: -20px;
 	padding-top: 20px;
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 	background-color: rgb(220, 180, 221);
 }
 
 #qrcoder
 {
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 
 } 
 .img :hover
@@ -72,13 +72,13 @@ li a:hover {
 #spa
 {
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 	background-color: #caac96;
 }
 #contact
 {
 	text-align: center;
-	font: 18px Calibri, sans-serif;
+	font: 18px Calibri Light, sans-serif;
 	background-color: rgb(177, 128, 135);
 }
 * {
@@ -136,7 +136,7 @@ li a:hover {
 	padding: 8px 12px;
 	position: absolute;
 	top: 8px;
-	left: 40px;
+	left: 16px;
   }
   
   /* Container for image text */
