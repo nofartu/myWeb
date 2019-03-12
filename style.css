@@ -186,7 +186,7 @@ text-align: center;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font: 24px  Calibri, sans-serif;
+	font: 30px  Calibri, sans-serif;
   }
   .bottomright-text
   {
@@ -196,6 +196,6 @@ text-align: center;
 	right: 10%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font: 15px  Calibri, sans-serif;
+	font: 18px  Calibri, sans-serif;
   }
 
