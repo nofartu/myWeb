@@ -184,7 +184,7 @@ li a:hover {
 
 text-align: center;
   }
-  #displaycontainer middle-text {
+  section .middle-text {
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -193,7 +193,7 @@ text-align: center;
 	color: white;
 	font: 30px  Calibri, sans-serif;
   }
-  .bottomright-text
+  section .bottomright-text
   {
 	text-align: center;
 	position: absolute;
