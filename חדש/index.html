@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title> Welcome to my web page </title>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+  <div id="menu">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </div>
+
+  <section id="about" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">about me</H2> 
+    <br />
+    My name is Nofar Turteltaub i'm in the 3rd year out of 4 in Bs.c system information and softwaer
+    engeneering .
+    <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
+    <br />my favorite food is Italian cusine.
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="photos" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">my photos</H2>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 8</div>
+        <img src="pic2.HEIC" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 8</div>
+        <img src="pic6.JPG" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 8</div>
+        <img src="pic9.HEIC" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 8</div>
+        <img src="pic10.HEIC" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 8</div>
+        <img src="pic13.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 8</div>
+        <img src="pic14.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img src="pic15.jpg" style="width:50%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">8 / 8</div>
+        <img src="pic16.jpg" style="width:50%">
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="pic2.HEIC" style="width:80%" onclick="currentSlide(1)"
+            alt="after a day of skinig in the Dolimits, italy">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic6.JPG" style="width:80%" onclick="currentSlide(2)" alt="my family and I">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic9.HEIC" style="width:80%" onclick="currentSlide(3)"
+            alt="lovley New York City ">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic10.HEIC" style="width:80%" onclick="currentSlide(4)" alt="Or and I">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic13.jpg" style="width:80%" onclick="currentSlide(5)" alt="my family and I">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic14.jpg" style="width:80%" onclick="currentSlide(6)" alt="Adi, Maya and I">
+        </div>
+    
+        <div class="column">
+          <img class="demo cursor" src="pic15.jpg" style="width:80%" onclick="currentSlide(7)" alt="fun un the sun">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pic16.jpg" style="width:80%" onclick="currentSlide(8)"
+            alt="Snorkling with this guys">
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="playlist" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">my playlist</H2>
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mk48xRzuNvA" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <br />
+  </section>
+
+  <section id="like" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">Like my page</H2>
+    <br />
+    <div class="fb-like" data-href="https://nofartu.github.io/myWeb/" data-layout="standard" data-action="like"
+      data-size="small" data-show-faces="true" data-share="true"></div>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="qrcoder" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">scan my code here!</H2>
+    <br />
+    <br />
+    <img src=QRcode.png />
+    <br />
+    <br />
+  </section>
+
+  <section id="spa" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">Q&A </H2>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="contact" class="section">
+    <br />
+    <br />
+    <H2 ALIGN="center">contact me</H2>
+    <br />
+    If you wish to contact me please send a massage and you will get an answer as soon as posssible.
+    <br />
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+      Full Name:<br>
+      <input type="text" name="name"><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Comment:<br>
+      <input type="text" name="comment" style="height:180px" size="100"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+    <br />
+  </section>
+
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
+  <script language=javascript>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+</body>
+
+</html>
