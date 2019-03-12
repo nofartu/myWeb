@@ -5,18 +5,18 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <title> Welcome to my web page </title>
   <style>
-  h2{
-	border-bottom: 6px solid lightgray;
-  }
+    h2 {
+      border-bottom: 6px solid lightgray;
+    }
   </style>
 </head>
 
 <body>
-    <div class="display container">
-      <img src="bg.png" alt="back" style="width:100%;min-height:180px;max-height:340px;">
-      <div class="middle-text">Welcome to my web page</div>
-      <div class="bottomright-text">"here will be a quote"</div>
-    </div>
+  <div class="display container">
+    <img src="bg.png" alt="back" style="width:100%;min-height:180px;max-height:340px;">
+    <div class="middle-text">Welcome to my web page</div>
+    <div class="bottomright-text">"here will be a quote"</div>
+  </div>
 
   <div id="fb-root"></div>
   <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
@@ -31,18 +31,18 @@
   </div>
 
 
-    
+
   <section id="about" class="section">
     <br />
     <br />
-    <H2 ALIGN="center">about me</H2> 
+    <H2 ALIGN="center">about me</H2>
     <br />
-    <img src="mypic.png" >
+    <img src="mypic.png">
     <br />My name is Nofar Turteltaub i'm in the 3rd year out of 4 in Bs.c system information and softwaer
     engeneering .
     <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
     <br />my favorite food is Italian cusine.
-    
+
     <br />
     <br />
   </section>
@@ -125,7 +125,7 @@
         <div class="column">
           <img class="demo cursor" src="pic14.jpg" style="width:80%" onclick="currentSlide(6)" alt="Adi, Maya and I">
         </div>
-    
+
         <div class="column">
           <img class="demo cursor" src="pic15.jpg" style="width:80%" onclick="currentSlide(7)" alt="fun un the sun">
         </div>
@@ -185,7 +185,7 @@
   <section id="spa" class="section">
     <br />
     <br />
-    <H2 ALIGN="center">Q&A!  </H2>
+    <H2 ALIGN="center">Q&A! </H2>
     <br />
     <br />
     <br />
@@ -199,16 +199,24 @@
     If you wish to contact me please send a massage and you will get an answer as soon as posssible.
     <br />
     <br />
-    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-      Full Name:<br>
-      <input type="text" name="name"><br>
-      Your E-mail:<br>
-      <input type="text" name="mail"><br>
-      Your Message:<br>
-      <textarea id="Message" name="comment" style="height:180px"  placeholder="Please write your message here"></textarea><br><br>
-      <input type="submit" value="Send">
-      <input type="reset" value="Reset">
-    </form>
+    <div class="row">
+      <div class="column">
+        <img src="pic.jfif" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          Full Name:<br>
+          <input type="text" name="name"><br>
+          Your E-mail:<br>
+          <input type="text" name="mail"><br>
+          Your Message:<br>
+          <textarea id="Message" name="comment" style="height:180px"
+            placeholder="Please write your message here"></textarea><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </form>
+      </div>
+    </div>
     <br />
   </section>
 
