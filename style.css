@@ -32,6 +32,9 @@ li a:hover {
 	font: 18px  Calibri Light, sans-serif;
 
 }
+.about img {
+	border-radius: 50%;
+  }
 
 #photos
 {
