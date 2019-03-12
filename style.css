@@ -229,10 +229,11 @@ text-align: center;
 	background-color: #f2f2f2
   }
   
+  .fa-remove {
+	color: red;
+  }
   .fa-check {
 	color: green;
   }
   
-  .fa-remove {
-	color: red;
-  }
+  
