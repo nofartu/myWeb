@@ -184,9 +184,9 @@ li a:hover {
 	resize: vertical;
 	font: 14px  Calibri Light, sans-serif;
   }
-  .display{
-padding: 30px;
-text-align: center;
+  display{
+	padding: 30px;
+	text-align: center;
   }
    .middle-text {
 	text-align: center;
