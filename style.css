@@ -180,7 +180,7 @@ li a:hover {
 	resize: vertical;
 	font: 14px  Calibri Light, sans-serif;
   }
-  .displaycontainer{
+  #displaycontainer{
 padding: 30px;
 text-align: center;
   }
