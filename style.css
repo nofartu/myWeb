@@ -175,6 +175,10 @@ li a:hover {
 	resize: vertical;
 	font: 14px  Calibri Light, sans-serif;
   }
+  .display container{
+padding: 30px;
+text-align: center;
+  }
   .display-middle-text {
 	text-align: center;
 	position: absolute;
