@@ -30,14 +30,14 @@ li a:hover {
 {
 	text-align: center;
 	font: 18px  Calibri Light, sans-serif;
-	background-color:#FDCACD;
+
 }
 
 #photos
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	background-color: #ffebce;
+	
 	margin-top: -20px;
 	padding-top: 20px;
 }
@@ -46,7 +46,7 @@ li a:hover {
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	background-color: #d2c28e;
+	
 }
 
 #like
@@ -55,7 +55,7 @@ li a:hover {
 	padding-top: 20px;
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	background-color: rgb(220, 180, 221);
+
 }
 
 #qrcoder
@@ -69,13 +69,13 @@ li a:hover {
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	background-color: #caac96;
+
 }
 #contact
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	background-color: rgb(177, 128, 135);
+	
 }
 
 * {
