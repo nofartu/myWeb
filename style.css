@@ -68,10 +68,6 @@ li a:hover {
 	font: 18px Calibri Light, sans-serif;
 	
 } 
-#qrcoder img:hover {
-
-	transform: scale(2);
-  }
 
 #spa
 {
@@ -184,11 +180,11 @@ li a:hover {
 	resize: vertical;
 	font: 14px  Calibri Light, sans-serif;
   }
-  #display{
-	padding: 30px;
-	text-align: center;
+  .displaycontainer{
+padding: 30px;
+text-align: center;
   }
-   .middle-text {
+  .middle-text {
 	text-align: center;
 	position: absolute;
 	top: 50%;
