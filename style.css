@@ -180,11 +180,11 @@ li a:hover {
 	resize: vertical;
 	font: 14px  Calibri Light, sans-serif;
   }
-  #displaycontainer{
+  .display{
 
 text-align: center;
   }
-  section .middle-text {
+   .middle-text {
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -193,7 +193,7 @@ text-align: center;
 	color: white;
 	font: 30px  Calibri, sans-serif;
   }
-  section .bottomright-text
+  .bottomright-text
   {
 	text-align: center;
 	position: absolute;
