@@ -166,7 +166,7 @@ li a:hover {
   .demo:hover {
 	opacity: 1;
   }
-  textarea{
+  input[type=text],textarea{
 	width: 60%;
 	padding: 12px;
 	border: 1px solid #ccc;
