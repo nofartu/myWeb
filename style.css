@@ -68,6 +68,10 @@ li a:hover {
 	font: 18px Calibri Light, sans-serif;
 	
 } 
+#qrcoder img:hover {
+
+	transform: scale(2);
+  }
 
 #spa
 {
