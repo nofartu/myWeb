@@ -77,6 +77,11 @@ li a:hover {
 	font: 18px Calibri Light, sans-serif;
 	background-color: rgb(177, 128, 135);
 }
+h2{
+	border-bottom: 6px solid red;
+  background-color: lightgrey;
+}
+
 * {
 	box-sizing: border-box;
   }
