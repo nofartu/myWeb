@@ -203,4 +203,12 @@ text-align: center;
 	color: white;
 	font: 18px  Calibri, sans-serif;
   }
+  .grid-container {
+	display: grid;
+	grid-template-areas:
+	  'left main main ';
+	grid-gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+  }
 
