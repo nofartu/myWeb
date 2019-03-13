@@ -25,12 +25,14 @@ li a {
 li a:hover {
   background-color: #1F85DE;
 }
-
+#home{
+	background-color: #fff0f5;
+}
 #about
 {
 	text-align: center;
 	font: 18px  Calibri Light, sans-serif;
-
+	background-color: #fff0f5;
 }
 
 
@@ -41,12 +43,14 @@ li a:hover {
 	font: 18px Calibri Light, sans-serif;
 	margin-top: -20px;
 	padding-top: 20px;
+	background-color: #fff0f5;
 }
 
 #playlist
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
+	background-color: #fff0f5;
 	background-color: #fff0f5;
 }
 
@@ -55,27 +59,27 @@ li a:hover {
 
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-
+	background-color: #fff0f5;
 }
 
 #qrcoder
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	
+	background-color: #fff0f5;
 } 
 
 #spa
 {
 	text-align: left;
 	font: 18px Calibri Light, sans-serif;
-
+	background-color: #fff0f5;
 }
 #contact
 {
 	text-align: center;
 	font: 18px Calibri Light, sans-serif;
-	
+	background-color: #fff0f5;
 }
 
 * {
