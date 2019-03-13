@@ -8,8 +8,26 @@
     h2 {
       border-bottom: 6px solid lightgray;
     }
-    .item1 { grid-area: main; }
-.item2 { grid-area: left; }
+
+    .item1 {
+      grid-area: main;
+    }
+
+    .item2 {
+      grid-area: left;
+    }
+
+    .part1 {
+      grid-area: left;
+    }
+
+    .part2 {
+      grid-area: main;
+    }
+
+    .part3 {
+      grid-area: right;
+    }
   </style>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -20,7 +38,7 @@
   <div class="display container">
     <img src="bg.png" alt="back" style="width:100%;min-height:180px;max-height:340px;">
     <div class="middle-text">Welcome to my web page</div>
-    <div class="bottomright-text">courtesy of web development course,<br/> 2nd semester 2019</div>
+    <div class="bottomright-text">courtesy of web development course,<br /> 2nd semester 2019</div>
   </div>
 
   <div id="fb-root"></div>
@@ -46,8 +64,24 @@
     <br /><br />
     <br />My name is Nofar Turteltaub i'm in my 3rd year studiyng Bs.c system information and softwaer
     engeneering .
-    <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
-    <br />my favorite food is Italian cusine.
+    
+    <div class="grid-container1">
+      <div class="part1">
+
+        <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
+        <br />my favorite food is Italian cusine.
+
+      </div>
+      <div class="part2">
+        <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
+        <br />my favorite food is Italian cusine.
+      </div>
+      <div class="part3">
+        <br />My hobbeis are: swimming, skinig, traveling, reading books, watching TV, hang out with my friends
+        <br />my favorite food is Italian cusine.
+      </div>
+    </div>
+
     <br />
     <br />
   </section>
@@ -195,58 +229,60 @@
     <br />
     <h3>Comperision between the diffrent webs (web 1.0 , web 2.0, web 3.0)</h3>
     <table>
-        <tr>
-          <th style="width:50%">Features</th>
-          <th>web 1.0</th>
-          <th>web 2.0</th>
-          <th>web 3.0</th>
-          
-        </tr>
-        <tr>
-            <td>passively receive information</td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-            <td><i class="fa fa-check"></i></td>
-          </tr>
-          <tr>
-              <td>contribute contant: reviews, feedback and comments</td>
-              <td><i class="fa fa-times"></i></td>
-              <td><i class="fa fa-check"></i></td>
-              <td><i class="fa fa-check"></i></td>
-            </tr>
-        <tr>
-          <td>interact between users via Social network</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-        </tr>
-        <tr>
-          <td>it is using web API's</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-check"></i></td>
-        </tr>
-        <tr>
-            <td>interprate information and generate suitable content for user</td>
-            <td><i class="fa fa-times"></i></td>
-            <td><i class="fa fa-times"></i></td>
-            <td><i class="fa fa-check"></i></td>
-          </tr>
-      </table>
+      <tr>
+        <th style="width:50%">Features</th>
+        <th>web 1.0</th>
+        <th>web 2.0</th>
+        <th>web 3.0</th>
+
+      </tr>
+      <tr>
+        <td>passively receive information</td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>contribute contant: reviews, feedback and comments</td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>interact between users via Social network</td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>it is using web API's</td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>interprate information and generate suitable content for user</td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-times"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+    </table>
     <br />
 
 
     <H3>Use case</H3>
     In case of searching in the diffrent web the same query:
-  
-    <H5>Web 1.0 :</H5> 
-    We will get a reault to the query.  
-  
-    <H5>Web 2.0 :</H5> 
-    We will get good results for our query and be able to comment, share, give a feedback for the information we recived.
-  
-    <H5>Web 3.0 :</H5> 
-    The information would be suitable for the query and our need, based on previous information or our prewious preferences 
+
+    <H5>Web 1.0 :</H5>
+    We will get a reault to the query.
+
+    <H5>Web 2.0 :</H5>
+    We will get good results for our query and be able to comment, share, give a feedback for the information we
+    recived.
+
+    <H5>Web 3.0 :</H5>
+    The information would be suitable for the query and our need, based on previous information or our prewious
+    preferences
   </section>
 
   <section id="contact" class="section">
