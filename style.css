@@ -47,6 +47,12 @@ li a:hover {
 	background-color: #fff0f5;
 }
 
+.column img{
+	
+		border-radius: 8px;
+	  
+}
+
 #playlist
 {
 	text-align: center;
